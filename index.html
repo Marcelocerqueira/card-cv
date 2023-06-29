@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Marcelo Cerqueira | Dev Front-end</title>
+   <link rel="icon" href="./img/code.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="./css/styles.css">
+
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+      tailwind.config = {
+         darkMode: 'class',
+      }
+   </script>
+</head>
+
+<body class="bg-gray-400 flex flex-col h-screen justify-center items-center dark:bg-gray-800">
+   <main
+      class="relative bg-gray-300 h-180 p-5 rounded-2xl align-center flex items-center flex-col w-84 dark:bg-gray-600">
+
+      <img class="mb-6 mt-5 w-36 rounded 6" src="./img/icon.jpg" alt="Marcelo | Desenvolvedor Front-end">
+
+      <p class="mb-1 text-center text-gray text-lg font-bold typing-text dark:text-white"></p>
+      <p class="mb-12 text-center text-sm text-gray px-2 italic dark:text-white">Graduando de Análise e Desenvolvimento
+         de
+         Sistemas.</p>
+      <ul class="flex flex-col gap-4 text-center content-center">
+         <li>
+            <a class="flex bg-gray-200 items-center px-48 py-4 gap-2 rounded-2xl cursor-pointer text-custom font-bold text-lg dark:bg-gray-500"
+               href="https://www.linkedin.com/in/marcelo-cerqueira-0a0b42178//" target="_blank">
+               <i class="fab fa-linkedin mt-1"></i>
+               <p class="text-gray text-custom font-bold text-lg dark:text-white">LinkedIn</p>
+            </a>
+         </li>
+         <li>
+            <a class="flex bg-gray-200 items-center px-48 py-4 gap-2 rounded-2xl cursor-pointer text-custom font-bold text-lg dark:bg-gray-500"
+               href="https://github.com/Marcelocerqueira/" target="_blank">
+               <i class="fab fa-github mt-1"></i>
+               <p class="text-gray text-custom font-bold text-lg dark:text-white">Github</p>
+            </a>
+         </li>
+         <li>
+            <a class="flex bg-gray-200 items-center px-48 py-4 gap-2 rounded-2xl cursor-pointer text-custom font-bold text-lg dark:bg-gray-500"
+               href="https://portifoliomarcelo.netlify.app/" target="_blank">
+               <i class="fa-solid fa-briefcase mt-1"></i>
+               <p class="text-gray text-custom font-bold text-lg dark:text-white">Portifólio</p>
+            </a>
+         </li>
+         <li>
+            <a class="flex bg-gray-200 items-center px-48 py-4 gap-2 rounded-2xl cursor-pointer text-custom font-bold text-lg dark:bg-gray-500"
+               href="./CV.docx" download="cv.docx" target="_blank">
+               <i class="fas fa-file-export mt-1"></i>
+               <p class="text-gray text-custom font-bold text-lg dark:text-white">Currículo</p>
+            </a>
+         </li>
+         <li>
+            <a class="flex bg-gray-200 items-center mb-10 px-48 py-4 gap-2 rounded-2xl cursor-pointer text-custom font-bold text-lg dark:bg-gray-500"
+               href="https://api.whatsapp.com/send?phone=5571993177865&text=entra%20em%20contato"
+               target="_blank">
+               <i class="fab fa-whatsapp mt-1"></i>
+               <p class="text-gray text-custom font-bold text-lg dark:text-white">Whatsapp</p>
+            </a>
+         </li>
+      </ul>
+      <div class="absolute bottom-4">
+         <input type="checkbox" name="change-theme" id="change-theme" class="hidden" />
+         <label for="change-theme">
+            <i class="fas fa-sun sun cursor-pointer"></i>
+            <i class="fas fa-moon moon cursor-pointer"></i>
+         </label>
+      </div>
+   </main>
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
